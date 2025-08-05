@@ -12,11 +12,11 @@ var typed = new Typed(".text", {
 
  //Show Menu
 
-let bars = document.querySelector('.bars');
+let bar = document.querySelector('.bars');
 let menu = document.querySelector('.menu');
 let nav = document.querySelector('nav');
 
-bars.addEventListener('click',()=>{
+bar.addEventListener('click',()=>{
     menu.classList.toggle('show_menu');
     nav.classList.toggle('nav_border');
 });
@@ -30,4 +30,4 @@ window.addEventListener('DOMContentLoaded', function() {
       contactForm.reset();
     });
   }
-});
+});  
